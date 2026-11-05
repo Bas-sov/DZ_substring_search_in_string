@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Исходные файлы">
@@ -15,33 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\aho_corasick_Valeev.cpp">
+    <ClCompile Include="dataset.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\boyer_moore_Bakulin.cpp">
+    <ClCompile Include="find_by_std.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="..\dataset.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\kmp_Starikov.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\perebor_Belova.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="..\std_find.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\algorithms.h">
+    <ClInclude Include="dataset.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="..\dataset.h">
+    <ClInclude Include="Participants.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

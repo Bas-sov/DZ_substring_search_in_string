@@ -139,17 +139,13 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\aho_corasick_Valeev.cpp" />
-    <ClCompile Include="..\boyer_moore_Bakulin.cpp" />
-    <ClCompile Include="..\dataset.cpp" />
-    <ClCompile Include="..\kmp_Starikov.cpp" />
-    <ClCompile Include="..\main.cpp" />
-    <ClCompile Include="..\perebor_Belova.cpp" />
-    <ClCompile Include="..\std_find.cpp" />
+    <ClCompile Include="dataset.cpp" />
+    <ClCompile Include="find_by_std.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\algorithms.h" />
-    <ClInclude Include="..\dataset.h" />
+    <ClInclude Include="dataset.h" />
+    <ClInclude Include="Participants.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
