@@ -19,6 +19,9 @@ std::vector<DataSet> all_datasets() {
 		{ "aab", "aacaac" },
 		{ "anything at all", "" },
 		{ repeat("short", 1000), "shortshort" },
-		{ "exactly the same", "exactly the same" }
+		{ "exactly the same", "exactly the same" },
+		{"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX","ABCD"}, //bm
+		{"the quick brown fox jumps over the lazy dog","lazy"}, //bm
+		{"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","ab"} //bm
 	};
 }

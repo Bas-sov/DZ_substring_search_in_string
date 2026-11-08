@@ -139,6 +139,7 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\DZ_substring_search_in_string\substring_search\boyer_moore_by_Bakulin.cpp" />
     <ClCompile Include="dataset.cpp" />
     <ClCompile Include="find_by_std.cpp" />
     <ClCompile Include="main.cpp" />

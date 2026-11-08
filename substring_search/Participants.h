@@ -17,3 +17,4 @@ using Participant = int(*)(const DataSet& dataset);
 int find_by_std(const DataSet& dataset);
 
 // Сюда участники добавляют объявления своих функций
+int bm_by_Bakulin(const DataSet& dataset);
