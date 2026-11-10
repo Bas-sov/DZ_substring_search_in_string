@@ -68,6 +68,7 @@ int main()
 		dataset = string("test_") + (s.size() < 2 ? "0" : "") + s;
 
 		RUN(find_by_std); // Образец запуска
+		RUN(bm_by_Bakulin);
 	}
 
 	ofstream fout("result.txt");
