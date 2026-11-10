@@ -38,7 +38,7 @@ void Run(string method_name, Participant p, const DataSet& ds)
 	auto start = chrono::steady_clock::now();
 	int res = p(ds);
 	auto stop = chrono::steady_clock::now();
-	auto time = chrono::duration_cast<chrono::microseconds>(stop - start).count();
+	auto time = chrono::duration_cast<chrono::nanoseconds>(stop - start).count();
 
 	size_t pos = ds.text.find(ds.pattern);
 	int expected = (pos == string::npos) ? -1 : (int)pos;
@@ -56,7 +56,7 @@ void Run(string method_name, Participant p, const DataSet& ds)
 
 int main()
 {
-	string header = "dataset\tn\tm\tmethod\tauthor\tanswer\ttime_us";
+	string header = "dataset\t\tn\tm\tmethod\tauthor\tanswer\ttime_ns";
 	cout << header << endl;
 	logs.push_back(header);
 
