@@ -69,6 +69,7 @@ int main()
 
 		RUN(find_by_std); // Образец запуска
 		RUN(bm_by_Bakulin);
+		RUN(perebor_by_Belova);
 	}
 
 	ofstream fout("result.txt");

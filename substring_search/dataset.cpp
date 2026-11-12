@@ -22,6 +22,9 @@ std::vector<DataSet> all_datasets() {
 		{ "exactly the same", "exactly the same" },
 		{"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX","ABCD"}, //bm
 		{"the quick brown fox jumps over the lazy dog","lazy"}, //bm
-		{"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","ab"} //bm
+		{"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","ab"}, //bm
+		{ "hello world", "world" }, //
+		{ "abcdef", "gh" },
+		{ "abc", "" }
 	};
 }

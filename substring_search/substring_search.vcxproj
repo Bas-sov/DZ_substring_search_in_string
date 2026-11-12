@@ -143,6 +143,7 @@
     <ClCompile Include="dataset.cpp" />
     <ClCompile Include="find_by_std.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="perebor_by_Belova.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dataset.h" />
