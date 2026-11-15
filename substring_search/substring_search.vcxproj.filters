@@ -30,7 +30,7 @@
     <ClCompile Include="perebor_by_Belova.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="kmp_by_Starikov.cpp">
+    <ClCompile Include="kmp_by_Star.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

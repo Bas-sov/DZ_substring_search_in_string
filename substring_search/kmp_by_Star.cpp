@@ -25,7 +25,7 @@ namespace {
 
 }
 
-int kmp_by_Starikov(const DataSet& dataset)
+int kmp_by_Star(const DataSet& dataset)
 {
     const std::string& text = dataset.text;
     const std::string& pattern = dataset.pattern;

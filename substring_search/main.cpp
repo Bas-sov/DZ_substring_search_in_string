@@ -70,7 +70,7 @@ int main()
 		RUN(find_by_std); // Образец запуска
 		RUN(bm_by_Bakulin);
 		RUN(perebor_by_Belova);
-		RUN(kmp_by_Starikov);
+		RUN(kmp_by_Star);
 	}
 
 	ofstream fout("result.txt");
