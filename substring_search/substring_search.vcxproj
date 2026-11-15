@@ -142,6 +142,7 @@
     <ClCompile Include="boyer_moore_by_Bakulin.cpp" />
     <ClCompile Include="dataset.cpp" />
     <ClCompile Include="find_by_std.cpp" />
+    <ClCompile Include="kmp_by_Starikov.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="perebor_by_Belova.cpp" />
   </ItemGroup>
