@@ -13,6 +13,7 @@
 #include "dataset.h"
 #include "Participants.h"
 
+
 using namespace std;
 
 // perebor_by_Belova -> "perebor\tbelova" (метод и автор — колонки таблицы)
@@ -71,6 +72,7 @@ int main()
 		RUN(bm_by_Bakulin);
 		RUN(perebor_by_Belova);
 		RUN(kmp_by_Star);
+		RUN(aho_by_Val);
 	}
 
 	ofstream fout("result.txt");

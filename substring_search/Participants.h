@@ -20,3 +20,4 @@ int find_by_std(const DataSet& dataset);
 int bm_by_Bakulin(const DataSet& dataset);
 int perebor_by_Belova(const DataSet& dataset);
 int kmp_by_Star(const DataSet& dataset);
+int aho_by_Val(const DataSet& dataset);
